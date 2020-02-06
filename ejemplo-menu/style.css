@@ -1,0 +1,35 @@
+*{
+    margin: 2;
+    padding: 0;
+
+}
+body{
+    background: #c3c3c3;
+}
+
+.menu{
+    list-style: none;
+    background: rgb(22, 136, 170);
+    max-width: 1024px;
+    margin: auto;
+}
+.menu li{
+    display: inline-block;
+    padding: 10px ;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color:#ffff ;
+    padding: 10px;
+
+}
+
+.menu li a:hover{
+    text-decoration: none;
+    color: rgb(42, 201, 140);
+    background-color:rgba(36, 92, 156, 0)  ;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000000;
+
+}
