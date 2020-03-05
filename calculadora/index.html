@@ -80,7 +80,12 @@
 
         <div class="col-md-3">
                     <button class="btn btn-outline-primary btn-sm btn-block" id="btn-igual">=</button>
-                    </div>             
+                    </div>
+                    
+                    <div class="col-md-3">
+                      <button class="btn btn-outline-primary btn-sm btn-block" id="btn-div">/</button>
+                      </div>             
+  
 
       <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -181,18 +186,35 @@ jQuery(document).ready(function(){
     $("#btn-mas").click(function(event){
       event.preventDefault();
       let valor = $("#texto1").val();
-      numero= parseInt(valor);
+      numero= parseFloat(valor);
       operacion=1;
       $("#texto1").val("");
   });
   $("#btn-rest").click(function(event){
       event.preventDefault();
       let valor = $("#texto1").val();
-      numero= parseInt(valor);
+      numero= parseFloat(valor);
       operacion=2;
+      $("#texto1").val("");
+
+  });
+
+
+  $("#btn-mult").click(function(event){
+      event.preventDefault();
+      let valor = $("#texto1").val();
+      numero= parseFloat(valor);
+      operacion=3;
       $("#texto1").val("");
   });
 
+  $("#btn-div").click(function(event){
+      event.preventDefault();
+      let valor = $("#texto1").val();
+      numero= parseFloat(valor);
+      operacion=4;
+      $("#texto1").val("");
+  });
 
 
   $("#btn-igual").click(function(event){
@@ -201,12 +223,21 @@ jQuery(document).ready(function(){
       let res=0;
       switch(operacion){
         case 1:
-        res = numero + parseInt(valor);
+        res = numero + parseFloat(valor);
          $("#texto1").val(res);
          break;
     
         case 2:
-         res = numero - parseInt(valor);
+         res = numero - parseFloat(valor);
+         $("#texto1").val(res);
+         break;
+         case 3:
+         res = numero * parseFloat(valor);
+         $("#texto1").val(res);
+         break;
+
+         case 4:
+         res = numero / parseFloat(valor);
          $("#texto1").val(res);
          break;
       }
