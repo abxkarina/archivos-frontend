@@ -1,6 +1,7 @@
 .header {
     text-align: center;
     padding: 32px;
+    font-family: 'Darcing Script';
   }
   
   
@@ -18,4 +19,7 @@
 }
 .fuente4{
     font-family: 'Source Serif Pro'
+}
+.contenedor{
+    padding-left: 10px;
 }
