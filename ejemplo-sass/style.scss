@@ -1,0 +1,33 @@
+$background: #7f91bd;
+$color-botton: #71aa90;
+$textcolor: #ffff;
+$colorclic: #bf1ece;
+$colorclic2: #2d1130;
+$color-botton-line: #a1117d;
+menu{
+    list-style: none;
+    background: $color-botton;
+    max-width: 1024px;
+    margin: auto;
+    li{
+        display: inline-block;
+        padding: 10px;
+    }
+    li a{
+        text-decoration: none;
+        color: $textcolor;
+        padding: 10px;
+    }
+    li a:hover{
+        text-decoration: none;
+        color: $colorclic;
+        background-color: $colorclic2;
+        text-transform: uppercase;
+        border-bottom: 2px solid $color-botton-line;
+        
+    }
+
+}
+body{
+    background: $background;
+}

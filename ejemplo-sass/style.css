@@ -1,0 +1,30 @@
+menu {
+  list-style: none;
+  background: #71aa90;
+  max-width: 1024px;
+  margin: auto;
+}
+
+menu li {
+  display: inline-block;
+  padding: 10px;
+}
+
+menu li a {
+  text-decoration: none;
+  color: #ffff;
+  padding: 10px;
+}
+
+menu li a:hover {
+  text-decoration: none;
+  color: #bf1ece;
+  background-color: #2d1130;
+  text-transform: uppercase;
+  border-bottom: 2px solid #a1117d;
+}
+
+body {
+  background: #7f91bd;
+}
+/*# sourceMappingURL=style.css.map */
