@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script|EB+Garamond|Lobster|Source+Serif+Pro&display=swap");
 menu {
   list-style: none;
   background: #71aa90;
@@ -22,6 +23,15 @@ menu li a:hover {
   background-color: #2d1130;
   text-transform: uppercase;
   border-bottom: 2px solid #a1117d;
+}
+
+h1 {
+  font-family: "Dancing Script";
+  text-align: center;
+}
+
+h2, p {
+  font-family: "Lobster";
 }
 
 body {

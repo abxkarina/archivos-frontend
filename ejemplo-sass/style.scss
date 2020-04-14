@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|EB+Garamond|Lobster|Source+Serif+Pro&display=swap');
 $background: #7f91bd;
-$color-botton: #71aa90;
+$color1-botton: #71aa90;
 $textcolor: #ffff;
 $colorclic: #bf1ece;
-$colorclic2: #2d1130;
+$color2: #2d1130;
 $color-botton-line: #a1117d;
+$fuente1: 'Dancing Script';
+$fuente2: 'Lobster';
 menu{
     list-style: none;
-    background: $color-botton;
+    background: $color1-botton;
     max-width: 1024px;
     margin: auto;
     li{
@@ -21,13 +24,24 @@ menu{
     li a:hover{
         text-decoration: none;
         color: $colorclic;
-        background-color: $colorclic2;
+        background-color: $color2;
         text-transform: uppercase;
         border-bottom: 2px solid $color-botton-line;
         
     }
 
 }
+
+h1{
+    font-family: $fuente1;
+   text-align: center;
+}
+
+h2,p{
+    font-family: $fuente2;
+    
+}
+
 body{
     background: $background;
 }
