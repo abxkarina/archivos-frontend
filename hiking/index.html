@@ -16,25 +16,40 @@
 </head>
 <body>
     <div class="container-fluid fondo-principal">
-    <div class="row mt-2 justify-content-center">
-        <div class="col-12" >
+    <div class="row mt-4 justify-content-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="col-12 col-md-4">
             <img src="img/logo.png" alt="logo" />
             
         </div>
-        <div class="col-6" >
-            <ul class="menu" >
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Upcoming treks</a></li>
-                <li><a href="#">Trek for family</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="col-12 col-md-9 collapse navbar-collapse"
+        id="navbarNavAltMarkup">
 
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Upcoming treks</a>
+            <a class="nav-item nav-link" href="#">Trek for family</a>
+            <a class="nav-item nav-link" href="#">Contact us</a>
+          </div>
         </div>
+      </nav>
     </div>
 
     <div class="row">
-        <div class="col-1"></div>
-        <div class="texto-header">
+        <div class="col-12 col-md-2"></div>
+        <div class="col-12 col-md-6 texto-header">
             <h4>CLIMB FOR BETTER</h4>
             <h1>GET OUT NOW</h1>
             <p>JOIN US FOR THE WEEKEND TO CLIMB</p>
@@ -56,18 +71,18 @@
         </div>
 
     <div class="row">
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-3 ">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita et veritatis sunt molestias, in incidunt nemo aut unde sint itaque, corrupti voluptates dolorum eligendi 
                 fugiat neque pariatur quaerat consequatur ut!</p>
         </div>
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-3 text-center">
             <img class="img-fluid" src="img/bg-2.png" alt="">
         </div>
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-3 text-center">
             <img class="img-fluid" src="img/bg-3.png" alt="">
             
         </div>
-        <div class="col-12 col-md-3">
+        <div class="col-12 col-md-3 text-center">
             <img class="img-fluid" src="img/bg-4.png" alt="">
             
         </div>
@@ -104,39 +119,46 @@
     </div>
 </div>
 
-<div class="container fondo-gris py-4">
+<div class="container fondo-gris py-3">
     <div class="row mt-4 justify-content-center">
-        <div class="col-4">
-            <img src="img/logo.png" alt="" />
-        </div>
-        <div class="col-7">
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Upcoming treks</a></li>
-                <li><a href="#">Treck for family</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
-        </div>
+      <div class="col-12 col-md-3">
+        <img src="img/logo.png" alt="" />
+      </div>
+      <div class="col-12 col-md-9">
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Upcoming treks</a></li>
+          <li><a href="#">Trek for family</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
     </div>
     <div class="row mt-3 justify-content-center">
-        <div class="col-12 col-md-4">
-            <h3 class="h-footer">CALL NOW</h3>
-            <br />
-            <h2 class="h-footer">1800 888 555</h2>
-        </div>
-    <div class="col-12 col-md-4">
-        &copy;Clase FrontEnd 2020. All Rights Reserved. <br />
+      <div class="col-12 col-md-4">
+        <h3 class="h-footer">CALL NOW</h3>
+        <br />
+        <h2 class="h-footer">1800 888 555</h2>
+      </div>
+      <div class="col-12 col-md-4 mb-3">
+        &copy;Clase FrontEnd 2020. All Rights Reserved.<br />
         <a href="http://www.freepik.com">Designed by Freepik</a>
+      </div>
+      <div class="col-12 col-md-4">
+        <a class="icono-social" href="#" alt="Instagram"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a class="icono-social" href="#" alt="Facebook"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a class="icono-social" href="#" alt="Twitter"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a class="icono-social" href="#" alt="Whatsapp"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+      </div>
     </div>
-    <div class="col-12 col-md-3">
-        <a class="icono-social" href="#" alt="Instagram"><i class="fab fa-instagram"></i></a>
-        <a class="icono-social" href="#" alt="Facebook"><i class="fab fa-facebook-f"></i></a>
-        <a class="icono-social" href="#" alt="Twitter"><i class="fab fa-twitter"></i></a>
-        <a class="icono-social" href="#" alt="Whatsapp"><i class="fab fa-whatsapp"></i></a>
-    </div>
-    </div>
-</div>
-
+  </div>
 
     <script
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
